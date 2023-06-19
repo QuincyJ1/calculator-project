@@ -1,20 +1,24 @@
+const del = document.querySelector('button')
+const precent = document.querySelector('button:nth-child(2)');
+const dot = document.querySelector('button:nth-child(3)');
+const empty = document.querySelector('button:nth-child(4)');
 const screen = document.querySelector('.screen')
-const seven = document.querySelector('button');
-const eight = document.querySelector('button:nth-child(2)');
-const nine = document.querySelector('button:nth-child(3)');
-const plus = document.querySelector('button:nth-child(4)');
-const four = document.querySelector('button:nth-child(5)');
-const five = document.querySelector('button:nth-child(6)');
-const six = document.querySelector('button:nth-child(7)');
-const minus = document.querySelector('button:nth-child(8)');
-const one = document.querySelector('button:nth-child(9)');
-const two = document.querySelector('button:nth-child(10)');
-const three = document.querySelector('button:nth-child(11)');
-const multiply = document.querySelector('button:nth-child(12)');
-const clear = document.querySelector('button:nth-child(13)');
-const zero = document.querySelector('button:nth-child(14)');
-const equal = document.querySelector('button:nth-child(15)');
-const divide = document.querySelector('button:nth-child(16)');
+const seven = document.querySelector('button:nth-child(5)');
+const eight = document.querySelector('button:nth-child(6)');
+const nine = document.querySelector('button:nth-child(7)');
+const plus = document.querySelector('button:nth-child(8)');
+const four = document.querySelector('button:nth-child(9)');
+const five = document.querySelector('button:nth-child(10)');
+const six = document.querySelector('button:nth-child(11)');
+const minus = document.querySelector('button:nth-child(12)');
+const one = document.querySelector('button:nth-child(13)');
+const two = document.querySelector('button:nth-child(14)');
+const three = document.querySelector('button:nth-child(15)');
+const multiply = document.querySelector('button:nth-child(16)');
+const clear = document.querySelector('button:nth-child(17)');
+const zero = document.querySelector('button:nth-child(18)');
+const equal = document.querySelector('button:nth-child(19)');
+const divide = document.querySelector('button:nth-child(20)');
 
 
 console.log(zero)
@@ -66,4 +70,14 @@ divide.addEventListener('click', () => {
 zero.addEventListener('click', () => {
     screen.textContent = result +='0';
 })
+del.addEventListener('click', () => {
+    screen.textContent = result = result.slice(0, result.length -1);
+})
+precent.addEventListener('click', () => {
+    screen.textContent = result += '%'
+})
+dot.addEventListener('click', () => {
+    screen.textContent = result += '.'
+})
+
 

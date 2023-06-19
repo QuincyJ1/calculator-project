@@ -63,4 +63,7 @@ clear.addEventListener('click', () => {
 divide.addEventListener('click', () => {
     screen.textContent = result +='/';
 })
+zero.addEventListener('click', () => {
+    screen.textContent = result +='0';
+})
 

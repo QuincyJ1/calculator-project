@@ -42,3 +42,8 @@ body {
   margin-top: 10px;
   box-shadow: 1px 1px 8px black;
 }
+
+.clear-btn {
+  background-color: red;
+  color: white;
+}

@@ -20,9 +20,7 @@ const zero = document.querySelector('button:nth-child(18)');
 const equal = document.querySelector('button:nth-child(19)');
 const divide = document.querySelector('button:nth-child(20)');
 
-
-console.log(zero)
-let result = '';
+let result = ''
 
 seven.addEventListener('click', () => {
     screen.textContent = result += '7';

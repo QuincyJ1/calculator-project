@@ -1,81 +1,81 @@
-const del = document.querySelector('button')
-const precent = document.querySelector('button:nth-child(2)');
-const dot = document.querySelector('button:nth-child(3)');
-const empty = document.querySelector('button:nth-child(4)');
-const screen = document.querySelector('.screen')
-const seven = document.querySelector('button:nth-child(5)');
-const eight = document.querySelector('button:nth-child(6)');
-const nine = document.querySelector('button:nth-child(7)');
-const plus = document.querySelector('button:nth-child(8)');
-const four = document.querySelector('button:nth-child(9)');
-const five = document.querySelector('button:nth-child(10)');
-const six = document.querySelector('button:nth-child(11)');
-const minus = document.querySelector('button:nth-child(12)');
-const one = document.querySelector('button:nth-child(13)');
-const two = document.querySelector('button:nth-child(14)');
-const three = document.querySelector('button:nth-child(15)');
-const multiply = document.querySelector('button:nth-child(16)');
-const clear = document.querySelector('button:nth-child(17)');
-const zero = document.querySelector('button:nth-child(18)');
-const equal = document.querySelector('button:nth-child(19)');
-const divide = document.querySelector('button:nth-child(20)');
+const delDOM = document.querySelector('button')
+const precentDOM = document.querySelector('button:nth-child(2)');
+const dotDOM = document.querySelector('button:nth-child(3)');
+const emptyDOM = document.querySelector('button:nth-child(4)');
+const screenDOM = document.querySelector('.screen')
+const sevenDOM = document.querySelector('button:nth-child(5)');
+const eightDOM = document.querySelector('button:nth-child(6)');
+const nineDOM = document.querySelector('button:nth-child(7)');
+const plusDOM = document.querySelector('button:nth-child(8)');
+const fourDOM = document.querySelector('button:nth-child(9)');
+const fiveDOM = document.querySelector('button:nth-child(10)');
+const sixDOM = document.querySelector('button:nth-child(11)');
+const minusDOM = document.querySelector('button:nth-child(12)');
+const oneDOM = document.querySelector('button:nth-child(13)');
+const twoDOM = document.querySelector('button:nth-child(14)');
+const threeDOM = document.querySelector('button:nth-child(15)');
+const multiplyDOM = document.querySelector('button:nth-child(16)');
+const clearDOM = document.querySelector('button:nth-child(17)');
+const zeroDOM = document.querySelector('button:nth-child(18)');
+const equalDOM = document.querySelector('button:nth-child(19)');
+const divideDOM = document.querySelector('button:nth-child(20)');
 
 let result = ''
 
-seven.addEventListener('click', () => {
-    screen.textContent = result += '7';
+sevenDOM.addEventListener('click', () => {
+    screenDOM.textContent = result += '7';
    
 })
-eight.addEventListener('click', () => {
-    screen.textContent = result += '8';
+eightDOM.addEventListener('click', () => {
+    screenDOM.textContent = result += '8';
 })
-nine.addEventListener('click', () => {
-    screen.textContent = result +='9';
+nineDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='9';
 })
-plus.addEventListener('click', () => {
-    screen.textContent = result +='+';
+plusDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='+';
 })
-four.addEventListener('click', () => {
-    screen.textContent = result +='4';
+fourDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='4';
 })
-five.addEventListener('click', () => {
-    screen.textContent = result +='5';
+fiveDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='5';
 })
-six.addEventListener('click', () => {
-    screen.textContent = result +='6';
+sixDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='6';
 })
-minus.addEventListener('click', () => {
-    screen.textContent = result +='-';
+minusDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='-';
 })
-one.addEventListener('click', () => {
-    screen.textContent = result +='1';
+oneDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='1';
 })
-two.addEventListener('click', () => {
-    screen.textContent = result +='2';
+twoDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='2';
 })
-three.addEventListener('click', () => {
-    screen.textContent = result +='3';
+threeDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='3';
 })
-multiply.addEventListener('click', () => {
-    screen.textContent = result +='x';
+multiplyDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='x';
 })
-clear.addEventListener('click', () => {
-    screen.textContent = result = '';
+clearDOM.addEventListener('click', () => {
+    screenDOM.textContent = result = '';
 })
-divide.addEventListener('click', () => {
-    screen.textContent = result +='/';
+divideDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='/';
 })
-zero.addEventListener('click', () => {
-    screen.textContent = result +='0';
+zeroDOM.addEventListener('click', () => {
+    screenDOM.textContent = result +='0';
 })
-del.addEventListener('click', () => {
-    screen.textContent = result = result.slice(0, result.length -1);
+delDOM.addEventListener('click', () => {
+    screenDOM.textContent = result = result.slice(0, result.length -1);
 })
-precent.addEventListener('click', () => {
-    screen.textContent = result += '%'
+precentDOM.addEventListener('click', () => {
+    screenDOM.textContent = result += '%'
 })
-dot.addEventListener('click', () => {
-    screen.textContent = result += '.'
+dotDOM.addEventListener('click', () => {
+    screenDOM.textContent = result += '.'
 })
 
 

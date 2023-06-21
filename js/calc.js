@@ -1,6 +1,35 @@
-// dėstytojo kodas: 
 
-const screenDOM = document.querySelector('.screen')
+const mainDOM = document.querySelector('.container')
+
+mainDOM.innerHTML = `
+<div class="screen">
+<p></p>
+</div>
+<div class="keyboard">
+<button class="key operator">DEL</button>
+<button class="key operator">%</button>
+<button class="key operator">.</button>
+<button class="key operator"></button>
+<button class="key number">7</button>
+<button class="key number">8</button>
+<button class="key number">9</button>
+<button class="key operator">+</button>
+<button class="key number">4</button>
+<button class="key number">5</button>
+<button class="key number">6</button>
+<button class="key operator">-</button>
+<button class="key number">1</button>
+<button class="key number">2</button>
+<button class="key number">3</button>
+<button class="key operator">x</button>
+<button class="key clear-btn">C</button>
+<button>0</button>
+<button class="key operator">=</button>
+<button class="key operator">/</button>
+</div>
+`
+// dėstytojo kodas: 
+ const screenDOM = document.querySelector('.screen')
 const buttonsDOM = document.querySelectorAll('.key')
 
 
